@@ -1,5 +1,0 @@
-// GENERATED FILE - DO NOT EDIT
-include ":"
-include ":CordovaLib"
-include ":com.google.playservices:ny-google-play-services_lib"
-include ":com.phonegap.plugins.facebookconnect:ny-FacebookLib"
