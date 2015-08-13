@@ -38,13 +38,13 @@
     "com.phonegap.plugins.facebookconnect": {
         "source": {
             "type": "git",
-            "url": "https://github.com/phonegap-build/FacebookConnect.git",
+            "url": "https://github.com/Wizcorp/phonegap-facebook-plugin.git",
             "subdir": "."
         },
         "is_top_level": true,
         "variables": {
-            "APP_ID": "1674447189454316",
-            "APP_NAME": "Nearby NY"
+            "APP_ID": "431786020341798",
+            "APP_NAME": "NearybyNY-test"
         }
     }
 }

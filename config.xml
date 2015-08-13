@@ -16,7 +16,7 @@
   <preference name="show-splash-screen-spinner" value="true"/>
   <preference name="auto-hide-splash-screen" value="true"/>
   <preference name="disable-cursor" value="false"/>
-  <preference name="android-minSdkVersion" value="7"/>
+  <preference name="android-minSdkVersion" value="14"/>
   <preference name="android-installLocation" value="auto"/>
   <gap:plugin name="org.apache.cordova.battery-status"/>
   <gap:plugin name="org.apache.cordova.camera"/>
@@ -38,10 +38,10 @@
   <gap:plugin name="org.apache.cordova.vibration"/>
   <!--FACEBOOK-->
   <gap:plugin name="com.phonegap.plugins.facebookconnect" version= "0.9.0">
-    <param name="APP_ID" value="1674447189454316" />
-    <param name="APP_NAME" value="Nearby NY" />
+    <param name="APP_ID" value="431786020341798" />
+    <param name="APP_NAME" value="NearbyNY-test" />
   </gap:plugin>
-  <gap:plugin name="plugin.google.maps.menusito" version="1.2.5" />
+  <!--<gap:plugin name="plugin.google.maps.menusito" version="1.2.5" />-->
   <!--FACEBOOK-->
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>

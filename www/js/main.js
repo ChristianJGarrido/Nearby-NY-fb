@@ -16,6 +16,8 @@ initEventList();
 
 function initEventList(){
 	Parse.initialize(PARSE_APP, PARSE_JS);
+
+    initApp();
 	//var eventListDisplay = document.createElement("div");
 	//eventListDisplay.setAttribute("id", "eventListDisplay");
 	//document.getElementById("display").appendChild(eventListDisplay);
@@ -196,13 +198,15 @@ function setupLinks(){
 }
 
 /* Facebook login */
-var fbLoginSuccess = function (userData) {
-	alert("UserInfo: " + JSON.stringify(userData));
-};
-
-$('#signin-button').click(function(e) {
-	facebookConnectPlugin.login(["public_profile", "email", "user_friends"],
-		fbLoginSuccess,
-		function (error) { alert("" + error);}
-		);
-});
+var fbLoginSuccess = function (userData) 
+{
+    alert("UserInfo: " + JSON.stringify(userData));
+}
+ 
+function initApp()
+{
+    facebookConnectPlugin.login(["public_profile"],
+        fbLoginSuccess,
+        function (error) { alert("" + error) }
+    );
+}
